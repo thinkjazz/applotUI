@@ -36,7 +36,10 @@
                 </div>
             </div>
             <div class="form-group">
-                <input class="form-control" type="email" name="email" placeholder="Email" autocomplete="off">
+                <input class="form-control" type="login" name="login" placeholder="Логин" autocomplete="on">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Email" autocomplete="on">
             </div>
             <div class="form-group">
                 <input class="form-control" id="password" type="password" name="password" placeholder="Пароль">
@@ -92,12 +95,16 @@
                         minlength: 2
                     },
                     last_name: {
-                        required: true,
+                        required: false,
                         minlength: 2
                     },
                     email: {
                         required: true,
                         email: true
+                    },
+                    login: {
+                        required: true,
+                        login: true
                     },
                     password: {
                         required: true,
