@@ -1,0 +1,2 @@
+<link href="./assets/vendors/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
+    <link href="./assets/vendors/fullcalendar/dist/fullcalendar.print.min.css" rel="stylesheet" media="print" />

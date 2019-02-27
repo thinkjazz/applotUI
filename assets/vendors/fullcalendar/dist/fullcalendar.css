@@ -207,7 +207,7 @@ hr.fc-divider {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 1em;
+  font-size: 1.18em;
   /* normalize cross-browser */ }
 
 .fc th {
@@ -628,7 +628,7 @@ TODO: more distinction between this file and common.css
   font-size: 1em;
   text-align: center;
   overflow: hidden;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Proxima Nova", Courier, monospace;
   /* don't allow browser text-selection */
   -webkit-touch-callout: none;
   -webkit-user-select: none;

@@ -141,9 +141,9 @@ pre {
     background-color: transparent; }
 
 .btn-default {
-  color: #485b6f;
-  background-color: #e3e6e7;
-  border-color: #c1c4c4; 
+  color: #222F3E;
+  background-color: #FECA57;
+  border-color: #FECA57;
   font-weight: 600;
   font-size: 1.3em;
 }
@@ -157,7 +157,7 @@ pre {
 
 .btn-primary {
   color: #fff;
-  background-color: #3C3B54;
+  background-color: #3C3B54; 
   border-color: #FECA57;
   font-weight: 600;
   font-size: 1.3em;
@@ -2236,7 +2236,7 @@ smaller than 560
   background-color: #308cc9 !important; }
 
 .bg-blue {
-  background-color: #3C3B54 !important; }
+  background-color: #FECA57 !important; }
 
 .bg-blue-400 {
   background-color: #52a7e0 !important; }
@@ -2344,7 +2344,7 @@ smaller than 560
   background-color: #d54637 !important; }
 
 .bg-red {
-  background-color: #e74c3c !important; }
+  background-color: #fd79a8 !important; }
 
 .bg-red-400 {
   background-color: #eb6759 !important; }
@@ -2704,7 +2704,7 @@ smaller than 560
   font-weight: 700 !important; }
 
 .link-blue {
-  color: inherit; }
+  color: #ff6565;}
   .link-blue:hover, .link-blue:focus {
     color: #3C3B54 !important; }
 
@@ -2750,7 +2750,8 @@ smaller than 560
   color: #2ecc71 !important; }
 
 .text-info {
-  color: #43415e !important; }
+  color: #ff6565 !important;
+}
 
 .text-warning {
   color: #FF6565 !important; }
