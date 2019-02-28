@@ -26,12 +26,33 @@ $(document).ready(function() {
 
     
     $('#calendar').fullCalendar({
+        locale: 'ru',
         header: {
             left: 'prev,next today',
+     
             center: 'title',
-            right: 'month,basicWeek,basicDay'
+          //   right: 'month,basicWeek,basicDay'// can click day/week names to navigate views
+            right: 'month,agendaWeek,agendaDay',
+
+            
         },
-        defaultDate: '2019-10-12',
+ 
+        timeFormat: 'HH:MM' ,
+        monthNames: ['Январь','Февраль','Март','Апрель','Май','οюнь','οюль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
+        monthNamesShort: ['Янв.','Фев.','Март','Апр.','Май','οюнь','οюль','Авг.','Сент.','Окт.','Ноя.','Дек.'],
+        dayNames: ["Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота"],
+        dayNamesShort: ["Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота"],
+        buttonText: {
+            prev: "<",
+            next: ">",
+            prevYear: "<<",
+            nextYear: ">>",
+            today: "Сегодня",
+            month: "Месяц",
+            week: "Неделя",
+            day: "День"},
+        firstDay: 1,
+        height: 800,
         navLinks: true, // can click day/week names to navigate views
         editable: true,
         droppable: true, // this allows things to be dropped onto the calendar
@@ -74,6 +95,7 @@ $(document).ready(function() {
                 start: '2019-10-28'
             }
         ],
+
         drop: function() {
             // is the "remove after drop" checkbox checked?
             if ($('#drop-remove').is(':checked')) {

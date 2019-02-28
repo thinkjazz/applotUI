@@ -1231,6 +1231,7 @@ btn .caret {
 
 .ibox {
   position: relative;
+  font-size: 1.18em;
   margin-bottom: 25px;
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -1768,7 +1769,7 @@ body.fullscreen-mode {
 
 .help-block {
   display: block;
-  font-size: 13px;
+  font-size: 1.0em;
   margin-bottom: 0;
   margin-top: 2px; }
 
@@ -1815,11 +1816,17 @@ body.fullscreen-mode {
 
 .ui-checkbox, .ui-radio {
   position: relative;
+  font-size: 1.2em;
   margin-bottom: 0;
   cursor: pointer;
   padding-left: 28px;
   font-weight: 600;
   min-height: 20px; }
+  label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.2em;
+}
   .ui-checkbox .input-span, .ui-radio .input-span {
     position: absolute;
     display: inline-block;
@@ -3509,15 +3516,21 @@ table.dataTable {
 
 .jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
   background: #3C3B54; }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.1em;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
 
-.adminca-banner {
-  display: block;
-  padding: 15px;
-  background-image: -webkit-linear-gradient(315deg, #2cc4cb, #18c5a9);
-  background-image: -o-linear-gradient(315deg, #2cc4cb, #18c5a9);
-  background-image: linear-gradient(135deg, #2cc4cb, #18c5a9);
-  position: relative;
-  max-width: 1260px; }
 
 .wrap-1, .wrap-2 {
   display: -webkit-box;
@@ -3525,27 +3538,9 @@ table.dataTable {
   display: -ms-flexbox;
   display: flex; }
 
-.adminca-banner-ribbon {
-  position: absolute;
-  left: 0;
-  top: 5px;
-  padding: 4px 10px;
-  background-image: -webkit-linear-gradient(315deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-  background-image: -o-linear-gradient(315deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-  color: #f39c12 !important;
-  font-size: 1.75rem; }
+ 
 
-.adminca-banner-b {
-  font-size: 16px;
-  padding: 5px 10px;
-  background: #fff;
-  -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-  width: 170px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  color: #333; }
+ 
 
 .dev-img {
   position: absolute;

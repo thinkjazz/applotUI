@@ -1,2 +1,69 @@
 <link href="./assets/vendors/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
     <link href="./assets/vendors/fullcalendar/dist/fullcalendar.print.min.css" rel="stylesheet" media="print" />
+
+
+     $('#calendar').fullCalendar({
+        header: {
+            left: 'prev,next today',
+            center: 'title',
+          //   right: 'month,basicWeek,basicDay'// can click day/week names to navigate views
+            right: 'month,agendaWeek,agendaDay',
+
+            
+        },
+        
+        defaultDate: '2019-10-12',
+        navLinks: true, // can click day/week names to navigate views
+        editable: true,
+        droppable: true, // this allows things to be dropped onto the calendar
+        eventLimit: true, // allow "more" link when too many events
+        events: [
+            {
+                title: 'Событие',
+                start: '2019-10-01',
+                backgroundColor: '#e74c3c'
+            },
+            {
+                title: 'Долгая лотерия',
+                start: '2019-10-07',
+                end: '2019-10-10',
+                backgroundColor: '#2ecc71'
+            },
+            {
+                title: 'Платная лотерея',
+                start: '2019-10-11',
+                end: '2019-10-13',
+                backgroundColor: '#23B7E5'
+            },
+            {
+                title: 'Розыгрыш пепяк',
+                start: '2019-10-12',
+                end: '2019-10-13'
+            },
+            {
+                title: 'Тупая макака',
+                start: '2019-10-12T'
+            },
+            {
+                title: 'Purple Haze',
+                start: '2019-10-13',
+                backgroundColor: '#546de5'
+            },
+            {
+                title: 'Кликни Google',
+                url: 'http://google.com/',
+                start: '2019-10-28'
+            }
+        ],
+
+        drop: function() {
+            // is the "remove after drop" checkbox checked?
+            if ($('#drop-remove').is(':checked')) {
+                // if so, remove the element from the "Draggable Events" list
+                $(this).remove();
+            }
+        }
+    });
+
+
+                    <div class="ibox">
