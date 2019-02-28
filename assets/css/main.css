@@ -143,9 +143,10 @@ pre {
 .btn-default {
   color: #222F3E;
   background-color: #FECA57;
-  border-color: #FECA57;
-  font-weight: 600;
-  font-size: 1.3em;
+/*border-color: #FECA57;*/
+  font-weight: 400;
+  font-size: 1.1em;
+
 }
   .btn-default:focus, .btn-default.focus, .btn-default:hover, .btn-default.active, .btn-default:active, .btn-default:disabled, .btn-default.disabled {
     color: #485b6f !important;
@@ -158,7 +159,7 @@ pre {
 .btn-primary {
   color: #fff;
   background-color: #3C3B54; 
-  border-color: #FECA57;
+  border-color: #3C3B54; 
   font-weight: 600;
   font-size: 1.3em;
 }

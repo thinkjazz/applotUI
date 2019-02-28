@@ -67,3 +67,9 @@
 
 
                     <div class="ibox">
+
+
+                        <link href="./assets/vendors/summernote/dist/summernote.css" rel="stylesheet" />
+    <link href="./assets/vendors/bootstrap-markdown/css/bootstrap-markdown.min.css" rel="stylesheet" />
+
+        <link href="./assets/vendors/morris.js/morris.css" rel="stylesheet" />
