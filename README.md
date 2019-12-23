@@ -1,4 +1,4 @@
-<h1>applot.io</h1>
+<h1>applot UI</h1>
  
 <h2>C&C Features:</h2>
  <ul><li>
